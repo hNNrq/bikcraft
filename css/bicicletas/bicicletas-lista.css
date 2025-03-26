@@ -15,7 +15,7 @@
   margin-left: auto;
   margin-right: auto;
   overflow-x: auto;
-  }
+}
 
 .bicicletas-lista li {
   flex: 1;
@@ -37,7 +37,7 @@
 }
 
 .bicicletas-lista h3::before {
-  content: '';
+  content: "";
   display: inline-block;
   height: 8px;
   width: 12px;
@@ -57,9 +57,8 @@
 @media (max-width: 800px) {
   .bicicletas-lista {
     padding-bottom: 60px;
-      }
-
-      .bicicletas-lista ul {
-        gap: 20px;
-      }
+  }
+  .bicicletas-lista ul {
+    gap: 20px;
+  }
 }
